@@ -1,42 +1,7 @@
 body {
-    background-color:aliceblue;
-}
-
-.navbar {
-    align-items: right;
-    overflow: hidden;
-    margin-top: 1cm;
-    margin-right: 0.75cm;
-}
-
-.navbar a {
-    float: right;
-    color: black;
-    text-align: center;
-    padding: 155px 18px;
-    text-decoration: none;
-    font-size: 15px;
-}
-
-.navbar a:hover {
-    background-color: lightsteelblue;
-    color: black
-}
-
-.navbar a.oval.active {
-    background-color: #99ccff;
-    color: black;
-    font-weight: bold;
-} 
-
-.navbar a.oval{
-    border-radius: 24px;
-    margin-left: 17.5px;
-    border: 2px solid rgb(160, 197, 229);
-    padding: 5px;
-    width: auto;
-    height: auto;
-    white-space: normal;
+    background-color: aliceblue;
+    font-family: Helvetica;
+    color: #554d45;
 }
 
 .h2 {
@@ -51,28 +16,91 @@ body {
     margin-top: -1.5%;
 }
 
+.p1 {
+    color: #554d45;
+}
+
+
 .flex-container {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 4cm;
-    margin-right: 4cm;
+    margin-left: 5cm;
+    margin-right: 5cm;
     margin-top: 1cm;
 }
 
 .flex-container > div {
-    border-radius: 30px;
+    border-radius: 25px;
     background-color: white;
     margin: 10px;
     padding: 10px;
     width: 2050px;
-    height: 75px;
+    height: 80px;
+    flex-grow: 4;
     font-size: larger;
     text-align: center;
-    align-self: auto;
+    align-items: auto;
+}
+
+.larger-flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-left: 7cm;
+    margin-right: 8cm;
+    margin-top: 0.3cm;
+}
+
+.larger-flex-container > div {
+    border-radius: 30px;
+    background-color: white;
+    margin: 5px;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    font-size: larger;
+    text-align: left;
+}
+
+.largest-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: left;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    margin-top: 0.3cm;
+}
+
+.largest-flex-container > div {
+    border-radius: 30px;
+    background-color: white;
+    margin: 25px;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    flex-grow: 5;
+    font-size: larger;
+    text-align: left;
 }
 
 .shadow {
     box-shadow: 0 6px 3px -3px grey;
-  }
+}
+
+.shadow1 {
+    box-shadow: 0 6px 3px -3px grey;
+    color: #554d45;
+}
+
+.tab{
+      display: inline-block;
+      margin-left: 60px;
+}
+
+.tab2{
+    display: inline-block;
+    margin-left: 20px;
+}
