@@ -151,11 +151,11 @@ button, input[type="submit"], input[type="reset"] {
     border-radius: 25px;
     background-color: white;
     margin: 10px;
-    padding: 10px;
+    padding-bottom: 20px;
     width: 2050px;
-    height: 80px;
+    height: auto;
     flex-grow: 4;
-    font-size: larger;
+    font-size: 24px;
     text-align: center;
     align-items: auto;
 }
@@ -176,7 +176,7 @@ button, input[type="submit"], input[type="reset"] {
     padding: 25px;
     width: 2050px;
     height: auto;
-    font-size: larger;
+    font-size: 24px;
     text-align: left;
 }
 
@@ -198,7 +198,7 @@ button, input[type="submit"], input[type="reset"] {
     width: 2050px;
     height: auto;
     flex-grow: 5;
-    font-size: larger;
+    font-size: 24px;
     text-align: left;
 }
 
@@ -211,33 +211,30 @@ button, input[type="submit"], input[type="reset"] {
     color: #554d45;
 }
 
-.tab{
-      display: inline-block;
-      margin-left: 60px;
+.shadow1:hover{
+  background-color: #CEE8FF;
 }
 
-.tab2{
-    display: inline-block;
-    margin-left: 20px;
+
+footer {
+  position: relative;
+  left: 12.7%;
+  padding-top: 15%;
+
+  width: 100%;
+  max-width: 75%;
+  height: auto;
+  text-align: center;
 }
 
-.tab3{
-    display: inline-block;
-    margin-left: 57px;
-}
+#disclaimer {
+  position: static;
+  bottom: 0;
+  margin-bottom: -2%;
+  padding-bottom: 5%;
 
-.tab4{
-    display: inline-block;
-    margin-bottom: 57px;
-}
-
-.tab5{
-    display: inline-block;
-    margin-top: 57px;
-    margin-left: 57px;
-}
-
-.tabsub{
-    display: inline-block;
-    margin-left: 87px;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 18.4px;
+  text-align: center;
 }
