@@ -14,7 +14,6 @@
     padding-right: 1rem;
     padding-left: 1rem;
     align-items: center;
-    font-family: Aleo, sans-serif;
 }
 
 button, input[type="submit"], input[type="reset"] {
@@ -41,6 +40,7 @@ button, input[type="submit"], input[type="reset"] {
     margin-left: 4rem;
     border: 0.1rem solid black;
     border-radius: 25px;
+    background-color: #F9F9F9;
     border-color:#CEE8FF;
     padding: 7px;
 }
