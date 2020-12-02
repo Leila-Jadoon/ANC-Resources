@@ -164,17 +164,17 @@ button, input[type="submit"], input[type="reset"] {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-    margin-left: 7cm;
+    margin-left: 8cm;
     margin-right: 8cm;
-    margin-top: 0.3cm;
+    margin-top: 0.5cm;
 }
 
 .larger-flex-container > div {
     border-radius: 30px;
     background-color: white;
-    margin: 5px;
-    padding: 15px;
-    width: auto;
+    margin: 10px;
+    padding: 25px;
+    width: 2050px;
     height: auto;
     font-size: larger;
     text-align: left;
@@ -185,17 +185,17 @@ button, input[type="submit"], input[type="reset"] {
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: left;
-    margin-left: 5cm;
-    margin-right: 5cm;
-    margin-top: 0.3cm;
+    margin-left: 8cm;
+    margin-right: 8cm;
+    margin-top: 1cm;
 }
 
 .largest-flex-container > div {
     border-radius: 30px;
     background-color: white;
     margin: 25px;
-    padding: 0px;
-    width: auto;
+    padding: 25px;
+    width: 2050px;
     height: auto;
     flex-grow: 5;
     font-size: larger;
