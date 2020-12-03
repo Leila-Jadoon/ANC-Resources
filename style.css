@@ -1,0 +1,240 @@
+body {
+    background-color: aliceblue;
+    font-family: Helvetica;
+    color: #554d45;
+}
+
+.header-container {
+  display: flex;
+  flex-direction:row;
+  background-color: #F0F8FF;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  align-items: center;
+  font-family: Aleo, sans-serif;
+
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.title-page {
+  margin-left: 2rem;
+}
+
+.navigation-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+}
+
+
+.home {
+  margin-left: 4rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  border-color:#CEE8FF;
+  background-color: #F9F9F9;
+  padding: 7px;
+}
+
+.aboutus {
+  margin-left: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
+}
+
+.peersupport {
+  margin-left: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
+}
+
+.commmembers {
+  margin-left: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
+}
+
+.members {
+  margin-left: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
+}
+
+.contactus {
+  margin-left: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
+}
+
+.events {
+  margin-left: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
+}
+
+.resources {
+  margin-left: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #CEE8FF;
+  border-color:#C6E3FF;
+  padding: 7px;
+}
+
+.keyterms {
+  margin-left: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
+}
+
+.h2 {
+    margin-left: 4cm;
+    margin-top: 2cm;
+    font-size: xx-large;
+}
+
+.p {
+    font-size: larger;
+    margin-left: 4cm;
+    margin-top: -1.5%;
+}
+
+.p1 {
+    color: #554d45;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    margin-top: 1cm;
+}
+
+.flex-container > div {
+    border-radius: 25px;
+    background-color: white;
+    margin: 10px;
+    padding-bottom: 20px;
+    width: 2050px;
+    height: auto;
+    flex-grow: 4;
+    font-size: 24px;
+    text-align: center;
+    align-items: auto;
+}
+
+.larger-flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-left: 8cm;
+    margin-right: 8cm;
+    margin-top: 0.5cm;
+}
+
+.larger-flex-container > div {
+    border-radius: 30px;
+    background-color: white;
+    margin: 10px;
+    padding: 25px;
+    width: 2050px;
+    height: auto;
+    font-size: 24px;
+    text-align: left;
+}
+
+.largest-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: left;
+    margin-left: 8cm;
+    margin-right: 8cm;
+    margin-top: 1cm;
+}
+
+.largest-flex-container > div {
+    border-radius: 30px;
+    background-color: white;
+    margin: 25px;
+    padding: 25px;
+    width: 2050px;
+    height: auto;
+    flex-grow: 5;
+    font-size: 24px;
+    text-align: left;
+}
+
+.shadow {
+    box-shadow: 0 6px 3px -3px grey;
+}
+
+.shadow1 {
+    box-shadow: 0 6px 3px -3px grey;
+    color: #554d45;
+}
+
+.shadow1:hover{
+  background-color: #CEE8FF;
+}
+
+
+footer {
+  position: relative;
+  left: 12.7%;
+  padding-top: 15%;
+
+  width: 100%;
+  max-width: 75%;
+  height: auto;
+  text-align: center;
+}
+
+#disclaimer {
+  position: static;
+  bottom: 0;
+  margin-bottom: -2%;
+  padding-bottom: 5%;
+
+  font-style: italic;
+  font-size: 16px;
+  line-height: 18.4px;
+  text-align: center;
+}
