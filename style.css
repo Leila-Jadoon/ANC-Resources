@@ -238,3 +238,10 @@ footer {
   line-height: 18.4px;
   text-align: center;
 }
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: skyblue;
+    font-weight: bolder;
+}
