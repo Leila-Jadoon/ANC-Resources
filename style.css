@@ -123,16 +123,17 @@ button, input[type="submit"], input[type="reset"] {
 .h2 {
     margin-left: 4cm;
     margin-top: 2cm;
-    font-size: xx-large;
+    font-size: 40px;
 }
 
 .p {
-    font-size: larger;
+    font-size: 24px;
     margin-left: 4cm;
-    margin-top: -1.5%;
+    margin-top: -2.25%;
 }
 
 .p1 {
+    font-size: larger; 
     color: #554d45;
 }
 
