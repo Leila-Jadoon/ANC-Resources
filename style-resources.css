@@ -5,57 +5,74 @@
 }
 
 /* NAVBAR */
-.header-container {
-    display: flex;
-    flex-direction:row;
-    background-color: #F0F8FF;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    align-items: center;
-}
-
 button, input[type="submit"], input[type="reset"] {
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
 
 .title-page {
-  margin-left: 2rem;
+  position: absolute;
+  top:2.5rem;
+  margin-left: 7rem;
+
+}
+
+.first-logo {
+  position:absolute;
+  top:1rem;
+  margin-left:.5rem;
+}
+
+.bck-img {
+  display:flex;
+  justify-content:center;
+  
+  margin-top:50px;
+  padding:0;
+  
 }
 
 .navigation-container {
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 2%;
 }
 
 .home {
-    margin-left: 4rem;
-    border: 0.1rem solid black;
-    border-radius: 25px;
-    background-color: #F9F9F9;
-    border-color:#CEE8FF;
-    padding: 7px;
+  margin-left: 4rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  border-color:#CEE8FF;
+  background-color: #F9F9F9;
+  padding: 7px;
 }
 
-.about-us, .peer-support, .com-members, .members, .contact-us, .events, .resources, .key-terms {
-    margin-left: 1rem;
-    border: 0.1rem solid black;
-    border-radius: 25px;
-    background-color: #F9F9F9;
-    border-color:#C6E3FF;
-    padding: 7px;
+.aboutus, .peersupport, .commmembers, .members, .contactus, .events, .resources, .keyterms{
+  margin-left: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  border-color:#C6E3FF;
+  padding: 7px;
 }
 
 .resources {
-    background-color: #CEE8FF;
+    background-color: #CEE8FF;;
+}
+
+@media only screen and (max-width: 1300px) {
+  .navigation-container {
+    width: 100%;
+    padding-top:40px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 
@@ -89,6 +106,7 @@ main, section {
 
 .subtitle {
     margin-left: 12.7%;
+    margin-right: 12.7%;
     margin-bottom: 5.69%;
     font-weight: 400;
     font-size: 24px;
@@ -115,6 +133,12 @@ main, section {
     margin-right: 12.7%;
 }
 
+.center {
+    float: center;
+    margin-left: 12.7%;
+    margin-right: 12.7%; 
+}
+
 .item {
     flex-basis: auto;
     height: auto;
@@ -136,6 +160,16 @@ main, section {
 
 .shadow {
     box-shadow: 0 6px 3px -3px grey;
+}
+
+a {
+    text-decoration: none;
+    color: #93b9db;
+     font-weight: 700;
+}
+
+li {
+    margin: 2%;
 }
 
 footer {
