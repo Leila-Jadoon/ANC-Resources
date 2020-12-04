@@ -41,7 +41,7 @@ button, input[type="submit"], input[type="reset"] {
   display:flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-top: 2%;
+  margin: 2%;
 }
 
 .home {
@@ -76,7 +76,7 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 
-/* Styling for Resources Pages: Self Advocacy, Mental Health, Faculty and Staff, Academic Support */
+/* Styling for Resources Pages: Self Advocacy, Mental Health, Faculty and Staff, Academic Support, Employment Support, Financial Aid */
 
 body {
     background-color:#F0F8FF;
@@ -98,10 +98,6 @@ main, section {
 
 .title {
     margin-top: 4.5%;
-}
-
-.first-section-title {
-    margin-top: 2%;
 }
 
 .subtitle {
@@ -165,7 +161,7 @@ main, section {
 a {
     text-decoration: none;
     color: #93b9db;
-     font-weight: 700;
+    /* font-weight: 700; */
 }
 
 li {
