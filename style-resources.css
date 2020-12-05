@@ -100,6 +100,17 @@ main, section {
     margin-top: 4.5%;
 }
 
+.space-below {
+    margin-bottom: 4.5%;
+}
+
+.section-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 27.6px;
+}
+
 .subtitle {
     margin-left: 12.7%;
     margin-right: 12.7%;
@@ -130,9 +141,8 @@ main, section {
 }
 
 .center {
-    float: center;
-    margin-left: 12.7%;
-    margin-right: 12.7%; 
+    margin-left: 15%;
+    max-width: 70%;
 }
 
 .item {
@@ -154,6 +164,10 @@ main, section {
     background-color: #CEE8FF;
 }
 
+.no-hover a:hover {
+    color: #4ca3f0;
+}
+
 .shadow {
     box-shadow: 0 6px 3px -3px grey;
 }
@@ -169,7 +183,11 @@ div a {
 }
 
 li {
-    margin: 2%;
+    margin: 5%;
+}
+
+.adjust-li-spacing li {
+    margin: 1%
 }
 
 footer {
