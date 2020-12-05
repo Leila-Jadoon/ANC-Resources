@@ -160,6 +160,11 @@ main, section {
     color: #554D45;
 }
 
+.main-page .item {
+    min-width: 100%;
+    text-align: center;
+}
+
 .item:hover:not(.no-hover) {
     background-color: #CEE8FF;
 }
