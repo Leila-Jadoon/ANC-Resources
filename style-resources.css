@@ -150,7 +150,7 @@ main, section {
     color: #554D45;
 }
 
-.item:hover {
+.item:hover:not(.no-hover) {
     background-color: #CEE8FF;
 }
 
@@ -160,8 +160,12 @@ main, section {
 
 a {
     text-decoration: none;
-    color: #93b9db;
-    /* font-weight: 700; */
+}
+
+div a {
+    text-decoration: none;
+    color: #82c4ff;
+    font-weight: 700;
 }
 
 li {
